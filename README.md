@@ -20,7 +20,7 @@ cd .\Extended-TicTacToe\
 Extended-TicTacToe> python main.py <--size=integer_value_greater_than_3>
 ```
 **Sample usage**
-```shell
+```
 python main.py --size=13
 -----------------------------
 | _ _ _ _ _ _ _ _ _ _ _ _ _ |
