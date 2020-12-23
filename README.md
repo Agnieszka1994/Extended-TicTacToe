@@ -11,9 +11,13 @@ In order to place your mark, you need to provide 2 credentials, column and row, 
 ```
 ## Get started!
 - download the repository
+```shell
+git clone https://github.com/Agnieszka1994/Extended-TicTacToe
+cd .\Extended-TicTacToe\
+```
 - run the program in the command-line
 ```
-TicTacToe> python main.py <--size=integer_value_greater_than_3>
+Extended-TicTacToe> python main.py <--size=integer_value_greater_than_3>
 ```
 **Sample usage**
 ```shell
