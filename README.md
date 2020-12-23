@@ -20,6 +20,7 @@ cd .\Extended-TicTacToe\
 Extended-TicTacToe> python main.py <--size=integer_value_greater_than_3>
 ```
 **Sample usage**
+If the `size` is less than `3`, the program automatically changes it to `3`.
 ```
 python main.py --size=13
 -----------------------------
