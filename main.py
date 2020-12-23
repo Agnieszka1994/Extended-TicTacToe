@@ -5,9 +5,11 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--size')
 args = parser.parse_args()
+size_of_matrix = int(args.size)
+if size_of_matrix < 3:
+    size_of_matrix = 3
 
-
-ticTacToe = Board(int(args.size))
+ticTacToe = Board(size_of_matrix)
 ticTacToe.print_matrix()
 print('X starts!')
 while True:
